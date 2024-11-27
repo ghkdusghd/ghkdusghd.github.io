@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-gemspec
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-theme-plainwhite'
+
+group :jekyll_plugins do
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-feed'
+  end
