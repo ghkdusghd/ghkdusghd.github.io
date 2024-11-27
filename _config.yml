@@ -55,3 +55,6 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+baseurl: ""
+url: "https://ghkdusghd.github.io"
