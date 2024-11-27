@@ -1,1 +1,0 @@
-# ghkdusghd.github.io
