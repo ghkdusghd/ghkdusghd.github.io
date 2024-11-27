@@ -105,7 +105,7 @@ main {
       text-align: center;
       font-size: 22px;
       margin-top: 0px;
-      color: #222222;
+      color: #aaa;
       white-space: pre-wrap;
       line-height: normal;
     }
@@ -168,7 +168,7 @@ main {
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;
-      border-bottom: 1px solid #222222;
+      border-bottom: 1px solid #ececec;
 
       @media screen and (max-width: $mobileW) {
         padding: 2rem 0;
@@ -178,7 +178,7 @@ main {
 }
 
 .post-wrapper {
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #ececec;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
@@ -271,7 +271,7 @@ main {
   margin: 0 0 0.67em 0;
   display: flex;
   align-items: baseline;
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #eee;
 }
 
 #posts-label {
