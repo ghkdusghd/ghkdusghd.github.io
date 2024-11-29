@@ -1,5 +1,5 @@
 ---
-title: "[OAuth2] 네이버 소셜 로그인 구현"
+title: "[OAuth2] react + spring boot 로 네이버 소셜 로그인 구현"
 excerpt: "-"
 
 writer: Hwayeon Hong

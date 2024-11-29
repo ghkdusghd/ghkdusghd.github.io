@@ -1,5 +1,5 @@
 ---
-title: "[OAuth2] 로그인 토큰 전송 오류"
+title: "[트러블슈팅] OAuth2 로그인 토큰 전송 오류"
 excerpt: "-"
 
 writer: Hwayeon Hong
