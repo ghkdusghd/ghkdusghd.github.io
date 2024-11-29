@@ -56,7 +56,8 @@ plainwhite:
 
 # Build settings
 # theme: plainwhite
-remote_theme: samarsault/plainwhite-jekyll
+# remote_theme: samarsault/plainwhite-jekyll
+theme: just-the-docs
 
 plugins:
   - jekyll-seo-tag
