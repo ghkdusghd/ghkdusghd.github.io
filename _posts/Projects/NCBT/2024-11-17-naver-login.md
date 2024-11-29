@@ -1,6 +1,6 @@
 ---
 title: "[OAuth2] 네이버 소셜 로그인 구현"
-# excerpt: "NCBT 프로젝트 시작!"
+excerpt: "-"
 
 writer: Hwayeon Hong
 # categories:

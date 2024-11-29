@@ -1,6 +1,6 @@
 ---
 title: "[OAuth2] 로그인 토큰 전송 오류"
-# excerpt: "NCBT 프로젝트 시작!"
+excerpt: "-"
 
 writer: Hwayeon Hong
 # categories:

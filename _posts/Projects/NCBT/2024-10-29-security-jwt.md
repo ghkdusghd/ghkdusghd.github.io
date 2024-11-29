@@ -1,6 +1,6 @@
 ---
 title: "[Spring Security + JWT] Spring Boot 로그인, 회원가입 구현"
-# excerpt: "NCBT 프로젝트 시작!"
+excerpt: "-"
 
 writer: Hwayeon Hong
 # categories:

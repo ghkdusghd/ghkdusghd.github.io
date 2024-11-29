@@ -1,6 +1,6 @@
 ---
 title: "[MySQL] 조인으로 쿼리문 최적화하기"
-# excerpt: "NCBT 프로젝트 시작!"
+excerpt: "-"
 
 writer: Hwayeon Hong
 # categories:

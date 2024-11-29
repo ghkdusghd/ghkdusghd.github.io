@@ -1,6 +1,6 @@
 ---
 title: "[Refactoring] 첫 코드 리팩토링 기록"
-# excerpt: "NCBT 프로젝트 시작!"
+excerpt: "-"
 
 writer: Hwayeon Hong
 # categories:
