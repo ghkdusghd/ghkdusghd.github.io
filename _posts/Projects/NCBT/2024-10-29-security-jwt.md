@@ -3,8 +3,9 @@ title: "[Spring Security + JWT] Spring Boot 로그인, 회원가입 구현"
 excerpt: "-"
 
 writer: Hwayeon Hong
-# categories: projects
-# permalink: /projects/:title/
+categories:
+  - projects
+permalink: /projects/NCBT/:title/
 tags:
   - [spring security, jwt]
 
