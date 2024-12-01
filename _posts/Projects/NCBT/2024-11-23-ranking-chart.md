@@ -3,8 +3,9 @@ title: "[MySQL] 조인으로 쿼리문 최적화하기"
 excerpt: "-"
 
 writer: Hwayeon Hong
-# categories:
-#   - projects
+categories:
+  - projects
+permalink: /projects/NCBT/:title/
 tags:
   - [mysql, join]
 

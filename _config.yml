@@ -19,9 +19,15 @@ plainwhite:
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/profile_image.png" # the path from the base directory of the site to the image to display (no / at the start)
   html_lang: "kr" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  # navigation:
-  #   - title: Projects
-  #     url: "/projects"
+  navigation:
+    - title: Home
+      url: "/"
+    - title: Projects
+      url: "/projects"
+    - title: NCBT Project
+      url: "/projects/NCBT"
+    - title: TroubleShooting
+      url: "/troubleShooting"
   condensed_mobile:
     #- home
     - page
@@ -78,3 +84,9 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# 게시글 관리 용도로 추가
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/

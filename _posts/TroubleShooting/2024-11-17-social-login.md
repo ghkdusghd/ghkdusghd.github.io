@@ -3,8 +3,9 @@ title: "[트러블슈팅] OAuth2 로그인 토큰 전송 오류"
 excerpt: "-"
 
 writer: Hwayeon Hong
-# categories:
-#   - projects
+categories:
+  - TroubleShooting
+permalink: /troubleShooting/:title/
 tags:
   - [oauth2, naver]
 
