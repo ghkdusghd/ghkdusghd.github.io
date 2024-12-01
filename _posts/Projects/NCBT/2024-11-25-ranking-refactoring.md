@@ -3,9 +3,8 @@ title: "[Refactoring] 첫 코드 리팩토링 기록"
 excerpt: "-"
 
 writer: Hwayeon Hong
-categories:
-  - projects
-permalink: /projects/NCBT/:title/
+# categories:
+#   - projects
 tags:
   - [java]
 

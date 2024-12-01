@@ -3,9 +3,8 @@ title: "[OAuth2] react + spring boot 로 네이버 소셜 로그인 구현"
 excerpt: "-"
 
 writer: Hwayeon Hong
-categories:
-  - projects
-permalink: /projects/NCBT/:title/
+# categories:
+#   - projects
 tags:
   - [oauth2, naver]
 
