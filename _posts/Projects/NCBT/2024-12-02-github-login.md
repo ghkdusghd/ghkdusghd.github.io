@@ -59,7 +59,7 @@ last_modified_at: 2024-12-02
 
 - POST 요청 및 param 세팅 : 자바에서 쿼리 등 uri 구성 요소들을 어떻게 넣을까 싶었는데 스프링에서 URI 빌더 클래스를 제공하고 있었다. 여러 개의 query 가 들어가게 되면 코드가 번잡해지는데, key value 형식으로 파라미터를 넣어줄 수 있어서 보기도 쉽고 간편하게 생성할 수 있었다.
 
-- 요청 헤더 설정 : 깃허브 공식문서를 보면 기본적으로 access token 은 아래와 같은 쿼리 파라미터 형식으로 반환하는데, 나는 객체 타입으로 받고 싶어서 ccept: application/json 헤더를 추가했다.
+- 요청 헤더 설정 : 깃허브 공식문서를 보면 기본적으로 access token 은 아래와 같은 쿼리 파라미터 형식으로 반환하는데, 나는 객체 타입으로 받고 싶어서 Accept: application/json 헤더를 추가했다.
 
 ```
 access_token=gho_16C7e42F292c6912E7710c838347Ae178B4a&scope=repo%2Cgist&token_type=bearer
