@@ -1,7 +1,8 @@
-# frozen_string_literal: true
+source "https://rubygems.org"
 
-source 'https://rubygems.org'
-# gem 'github-pages', group: :jekyll_plugins
-gem "just-the-docs"
-gem 'jekyll-github-metadata'
-gem 'jekyll-sitemap'
+gem "jekyll-github-metadata", ">= 2.15"
+gem "jekyll-seo-tag"
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll-sitemap", group: :jekyll_plugins
+
+gem "html-proofer", "~> 5.0", :group => :development
