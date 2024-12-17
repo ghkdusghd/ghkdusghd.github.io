@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 개발덬
+title: "🤓 개발덕 블로그"
 description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/ghkdusghd" # the base hostname & protocol for your site, e.g. http://example.com
@@ -126,8 +126,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: 🍀🫧 NCBT 서비스 바로가기
+    url: https://ncbt-front.vercel.app/
 
 # Show navigation error report
 nav_error_report: true # default is false/nil.
@@ -204,4 +204,8 @@ compress_html:
   # ignore:
   #   envs: all
 
+# 테마 연결
 remote_theme: just-the-docs/just-the-docs
+
+# 파비콘 추가
+favicon: /assets/images/favicon.ico
