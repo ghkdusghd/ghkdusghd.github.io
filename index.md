@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/0bb704b0-a4e6-44a5-ba85-9da4de12672b" 
+  <img src="/assets/images/profile/blog_profile.png" 
        alt="KakaoTalk_Photo_2024-12-19-17-22-40" 
        style="width: 20%; max-width: 400px;">
 </div>
@@ -30,4 +30,7 @@ permalink: /
 
 ### CONTACT
 
-#### 💌 yeonguo95@gmail.com
+| 💌 Email | 
+|---|
+| yeonguo95@gmail.com |
+
