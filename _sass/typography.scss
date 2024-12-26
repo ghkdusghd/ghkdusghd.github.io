@@ -1,6 +1,11 @@
 // Typography
 // stylelint-disable selector-no-type, selector-max-type, selector-max-specificity, selector-max-id
 
+// 전체적인 폰트 크기 조정 (custom)
+body {
+  @include fs-3;
+}
+
 h1,
 .text-alpha {
   font-weight: 300;

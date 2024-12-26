@@ -1,7 +1,7 @@
 ---
 title: "[OAuth2] react + spring boot 로 네이버 소셜 로그인 구현"
 parent: NCBT
-nav_order: 3
+nav_order: -3
 
 tags:
   - [oauth2, naver]

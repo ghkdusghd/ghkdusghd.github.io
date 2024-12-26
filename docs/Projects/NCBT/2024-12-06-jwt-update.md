@@ -1,7 +1,7 @@
 ---
 title: "[Spring Security + JWT] 토큰 재발급을 통한 로그인 유지"
 parent: NCBT
-nav_order: 7
+nav_order: -7
 
 tags:
   - [spring security, jwt]

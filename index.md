@@ -25,7 +25,7 @@ permalink: /
 
 ### PROJECTS
 
-#### 🚀 [NCBT 깃허브](https://github.com/Kimsu10/NCP-CBT.git) 
+#### 🚀 [NCBT](/docs/Projects/NCBT/) 
 #### 네이버 클라우드 플랫폼 자격증 시험 CBT 모의고사 사이트
 
 ### CONTACT

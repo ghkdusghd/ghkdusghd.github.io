@@ -1,7 +1,7 @@
 ---
 title: "[MySQL] 조인으로 쿼리문 최적화하기"
 parent: NCBT
-nav_order: 4
+nav_order: -4
 
 tags:
   - [mysql, join]

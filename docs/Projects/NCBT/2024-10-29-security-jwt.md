@@ -1,7 +1,7 @@
 ---
 title: "[Spring Security + JWT] Spring Boot 로그인, 회원가입 구현"
 parent: NCBT
-nav_order: 2
+nav_order: -2
 
 tags:
   - [spring security, jwt]

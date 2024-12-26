@@ -1,7 +1,7 @@
 ---
 title: "[Vercel] Vercel 로 리액트 프로젝트 배포하기"
 parent: NCBT
-nav_order: 9
+nav_order: -9
 
 tags:
   - [vercel, react]

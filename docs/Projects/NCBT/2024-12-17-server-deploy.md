@@ -1,7 +1,7 @@
 ---
 title: "[NaverCloud + DockerHub] 네이버 클라우드 + 도커로 스프링 부트 프로젝트 배포하기"
 parent: NCBT
-nav_order: 8
+nav_order: -8
 
 tags:
   - [NCP, docker]

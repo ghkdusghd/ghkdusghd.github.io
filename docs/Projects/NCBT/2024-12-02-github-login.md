@@ -1,7 +1,7 @@
 ---
 title: "[OAuth2] react + spring boot 로 깃허브 소셜 로그인 구현"
 parent: NCBT
-nav_order: 6
+nav_order: -6
 
 tags:
   - [oauth2, github]

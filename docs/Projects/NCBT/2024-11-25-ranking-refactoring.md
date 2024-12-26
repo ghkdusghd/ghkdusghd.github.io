@@ -1,7 +1,7 @@
 ---
 title: "[Refactoring] 첫 코드 리팩토링 기록"
 parent: NCBT
-nav_order: 5
+nav_order: -5
 
 tags:
   - [java]
