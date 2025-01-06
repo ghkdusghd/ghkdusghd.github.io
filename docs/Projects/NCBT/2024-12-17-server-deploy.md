@@ -95,13 +95,6 @@ docker --version
 
 혹시라도 디스크 용량이 부족하여 증량해야 할 경우를 감안하여 비용 계산기를 두드려보았다. 현재 디스크 용량이 10GB 이고, OS 및 도커 등 서버 운영에 꼭 필요한 파일들의 용량이 약 6.5GB 를 차지하고 있으니, 증량해봐야 10GB 정도가 될 것이다.
 
-<p style="color:gray">V1. 기존 비용</p>
-<img width="667" alt="스크린샷 2024-12-23 오후 12 18 53" src="https://github.com/user-attachments/assets/da081a86-7a2d-422c-a007-52960f1c87af" />
-
-
-<p style="color:gray">V2. 10GB 증량 후 비용</p>
-<img width="662" alt="스크린샷 2024-12-23 오후 12 18 30" src="https://github.com/user-attachments/assets/adb8c9e3-0319-488d-a0eb-1c3404b13a7c" />
-
 약 1,100원의 차이라 이 정도면 충분히 감당 가능한 비용이기도 하고, 이렇게 하면 운영상의 편의성이 있을 것이고 타 서버와의 통신으로 인한 보안 위험까지 없어질것이라 생각하여 1번 방안을 선택하기로 했다.
 
 #### 1단계 : 패키지 업데이트
@@ -223,8 +216,6 @@ docker login
 
 #### 5단계 : 도커 허브에 저장소 생성
 
-<img width="1429" alt="스크린샷 2024-12-23 오후 12 29 47" src="https://github.com/user-attachments/assets/dd6978e0-bb94-4e3a-a68f-5ff7b8df3760" />
-
 - [Docker Hub (클릭하면 이동)](https://hub.docker.com/) 에 로그인한 이후, 상단에 Repositories 를 클릭
 
 - Create Repository 버튼을 눌러 저장소를 생성한다. public 으로 생성해야 한다.
@@ -241,7 +232,7 @@ docker buildx build --platform linux/amd64 -t ghkdusghd/ncbt:ver1 --push .
 
 #### 7단계 : 이미지가 허브에 잘 올라갔는지 확인
 
-<img width="677" alt="스크린샷 2024-12-23 오후 12 33 38" src="https://github.com/user-attachments/assets/f9df8030-db45-4017-8ac1-41e7d3eadcdc" />
+<img width="677" alt="스크린샷 2024-12-23 오후 12 33 38" src="/assets/images/pages/projects/ncbt/스크린샷 2025-01-06 오후 3.43.37.png" />
 
 > ### 5️⃣ 클라우드 서버에서 도커 이미지 받아오기
 
@@ -255,9 +246,9 @@ docker pull ghkdusghd/ncbt:ver8
 ``` bash
 # 컨테이너 실행
 docker run -d \
---name spring-container \
 --network host \
--e SPRING_DATASOURCE_URL=jdbc:mysql://서버내부IP:3306/ncbt \
+--name spring-container \
+-e SPRING_DATASOURCE_URL=jdbc:mysql://내부IP:3306/ncbt \
 -e SPRING_DATASOURCE_USERNAME=아이디 \
 -e SPRING_DATASOURCE_PASSWORD=비밀번호 \
 -e SPRING_DATASOURCE_DRIVER-CLASS-NAME=com.mysql.cj.jdbc.Driver \
@@ -308,8 +299,6 @@ ctrl + X # 종료
 > ### 7️⃣ POSTMAN 테스트
 
 이제 서버를 배포했으니 ```공인IP:8080``` 포트로 스프링 애플리케이션에 접근할 수 있을 것이다. 아직 프론트 서버를 배포하기 전이니 포스트맨으로 테스트 해보자 ! (테스트 전에 클라우드 서버의 ACG 인바운드 설정에 8080 포트를 열어줘야 한다)
-
-<img width="534" alt="스크린샷 2024-12-23 오후 12 59 34" src="https://github.com/user-attachments/assets/f7612085-d831-49d0-88c8-e3b371802f64" />
 
 403 에러로 실패하긴 했지만, 서버와 통신이 되긴 했다. 다음 포스팅에서 프론트 서버를 배포한 이후 에러를 잡아나가 보기로 하겠다.
 
