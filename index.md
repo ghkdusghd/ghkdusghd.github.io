@@ -30,7 +30,7 @@ permalink: /
 
 ### CONTACT
 
-| 💌 Email | 
-|---|
-| yeonguo95@gmail.com |
+| 💌 Email | ✏️ Github |
+|---|---|
+| yeonguo95@gmail.com | https://github.com/ghkdusghd |
 
