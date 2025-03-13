@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "🤓 개발덕 코딩노트"
+title: "🤓 뭉덕의 노트패드"
 description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/ghkdusghd" # the base hostname & protocol for your site, e.g. http://example.com
@@ -125,9 +125,9 @@ nav_enabled: true
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: 🍀🫧 NCBT 서비스 바로가기
-    url: https://www.ncbt.site
+# nav_external_links:
+#   - title: 🍀🫧 NCBT 서비스 바로가기
+#     url: https://www.ncbt.site
 
 # Show navigation error report
 nav_error_report: true # default is false/nil.

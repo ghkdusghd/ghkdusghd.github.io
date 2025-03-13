@@ -1,5 +1,5 @@
 ---
-title: About 개발덕
+title: About 뭉덕
 layout: home
 nav_order: 1
 permalink: /
@@ -11,22 +11,17 @@ permalink: /
 </div>
 
 
-# Web Backend Developer 개발덕 
+# QA Engineer 뭉덕
 
 ---
 
 ### EXPERIENCE
 
-#### 🍀 2024.12 -  NCBT 서비스 운영중
+#### 🍀 2025.03 - QA Engineer
 
-#### 👩🏻‍💻 2024.02 - 2024.08 네이버클라우드 기반 웹 데브옵스 개발자 과정 수료
+#### 🍙 2024.02 - 2024.08 네이버클라우드 기반 웹 데브옵스 개발자 과정 수료
 
 #### 💼 2018.11 - 2024.01 일본계 기업 근무 (물류, 회계 직무)
-
-### PROJECTS
-
-#### 🚀 [NCBT](/docs/Projects/NCBT/) 
-#### 네이버 클라우드 플랫폼 자격증 시험 CBT 모의고사 사이트
 
 ### CONTACT
 
