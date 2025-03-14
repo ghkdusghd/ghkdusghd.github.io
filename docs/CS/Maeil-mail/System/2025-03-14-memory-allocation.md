@@ -1,7 +1,7 @@
 ---
 title: 연속 메모리 할당 기법에 대해서 설명해주세요.
-parent: 서버
-nav_order: -7
+parent: 시스템
+nav_order: -4
 ---
 
 <div style="text-align: center; display: flex;
