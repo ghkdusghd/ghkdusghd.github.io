@@ -1,5 +1,5 @@
 ---
-title: About 뭉덕
+title: About 화연
 layout: home
 nav_order: 1
 permalink: /
@@ -11,7 +11,7 @@ permalink: /
 </div>
 
 
-# QA Engineer 뭉덕
+# QA Engineer 화연
 
 ---
 
