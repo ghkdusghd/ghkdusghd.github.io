@@ -71,11 +71,11 @@ Experiences
 </h1>
 
 <h2 style="margin-bottom: 0.5em;">
-Study
+Group Study
 <span style="color: #3a7ad5; font-weight: bold;">.</span>
 </h2>
 <pre style="font-size: 0.9em;">
-Spring Group Study
+Spring Framework
 2025.03 - 현재
 </pre>
 <p style="font-size: 0.9em;">
@@ -217,5 +217,6 @@ Contact
 ✉️ <a href="mailto:yeonguo95@gmail.com">Email</a>
 ✏️ <a href="https://ghkdusghd.github.io/" target="_blank">Blog</a>
 📦 <a href="https://github.com/ghkdusghd" target="_blank">Github</a>
+👩🏻‍💻 <a href="https://shell-william-abb.notion.site/Full-stack-Developer-17d227c27d6280b08983f2b20b886354" target="_blank">Portfolio</a>
 </pre>
 <br>
