@@ -217,6 +217,6 @@ Contact
 ✉️ <a href="mailto:yeonguo95@gmail.com">Email</a>
 ✏️ <a href="https://ghkdusghd.github.io/" target="_blank">Blog</a>
 📦 <a href="https://github.com/ghkdusghd" target="_blank">Github</a>
-👩🏻‍💻 <a href="https://shell-william-abb.notion.site/Full-stack-Developer-17d227c27d6280b08983f2b20b886354" target="_blank">Portfolio</a>
+👩🏻‍💻 <a href="https://shell-william-abb.notion.site/1f1227c27d6280408bf5eb1ba204f5fc" target="_blank">Portfolio</a>
 </pre>
 <br>

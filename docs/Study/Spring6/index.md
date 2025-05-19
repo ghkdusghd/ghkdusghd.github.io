@@ -1,6 +1,6 @@
 ---
 title: Spring6
-parent: Study
+parent: Group Study
 nav_order: 1
 ---
 
