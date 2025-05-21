@@ -1,6 +1,6 @@
 ---
-title: "JAVA 피보나치 수열"
-parent: Algorithms
+title: "프로젝트 오일러 P2 피보나치 수열"
+parent: DP
 nav_order: -1
 
 toc: true
