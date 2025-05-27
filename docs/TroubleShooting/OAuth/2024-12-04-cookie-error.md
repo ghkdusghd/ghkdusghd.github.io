@@ -1,7 +1,7 @@
 ---
 title: "[트러블슈팅] HTTP Only 쿠키에 Refresh Token 을 저장해보자"
 parent: OAuth
-nav_order: 2
+nav_order: -2
 
 tags:
   - [cookie, http]

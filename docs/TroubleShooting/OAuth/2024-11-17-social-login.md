@@ -1,7 +1,7 @@
 ---
 title: "[트러블슈팅] OAuth2 로그인 토큰 전송 오류"
 parent: OAuth
-nav_order: 1
+nav_order: -1
 
 tags:
   - [oauth2, naver]
