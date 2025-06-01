@@ -87,11 +87,13 @@ scores, bookmarks, complaints 테이블이 N에 해당하므로 연관관계의 
 
 1. OO건 row 의 DB 마이그레이션 진행
 
-2. 조인, 서브쿼리가 들어가는 복잡한 쿼리는 MyBatis 매퍼를 그대로 사용했다.
+2. 동일 트랜잭션 내에서 영속성 컨텍스트의 1차 캐시를 활용하여 중복 DB 접근을 줄이기 위해 트랜잭션 전파 속성(REQUIRED 등)을 적절히 설정함
 
-3. @ControllerAdvice, @ExceptionHandler 를 추가하여 예외 처리 로직을 공통화했고, 비즈니스 로직과 예외 처리 로직을 분리함으로써 가독성과 유지보수성을 높였다.
+3. 조인, 서브쿼리가 들어가는 복잡한 쿼리는 MyBatis 매퍼를 그대로 사용했다.
 
-4. Api 응답 DTO 를 도입하여 모든 API에서 일관된 응답을 제공하도록 개선. 클라이언트 측 처리를 단순화했다.
+4. @ControllerAdvice, @ExceptionHandler 를 추가하여 예외 처리 로직을 공통화했고, 비즈니스 로직과 예외 처리 로직을 분리함으로써 가독성과 유지보수성을 높였다.
+
+5. Api 응답 DTO 를 도입하여 모든 API에서 일관된 응답을 제공하도록 개선. 클라이언트 측 처리를 단순화했다.
 
         @Getter @Setter
         public class ApiResult<T> {
