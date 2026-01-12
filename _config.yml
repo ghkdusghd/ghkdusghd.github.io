@@ -16,8 +16,8 @@
 title: "🤓화연의 노트패드"
 description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/ghkdusghd" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+url: "https://github.com/io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: ghkdusghd/ghkdusghd.github.io # for github-metadata
 
 permalink: pretty
 
@@ -133,8 +133,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 nav_error_report: true # default is false/nil.
 
 liquid:
-  error_mode: strict
-  strict_filters: true
+  error_mode: warn
+  strict_filters: false
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -205,7 +205,7 @@ compress_html:
   #   envs: all
 
 # 테마 연결
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.6.0
 
 # 파비콘 추가
 favicon: /assets/images/favicon.ico
